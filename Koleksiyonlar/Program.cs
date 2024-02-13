@@ -1,5 +1,4 @@
 ﻿
-using System.Collections.Concurrent;
 
 string[] isimler = new string[] { "Niyazi", "Ali", "Alperen", "Ömer Taha" };
 
@@ -15,6 +14,4 @@ isimler2.Add("Muharrem");
 
 Console.WriteLine(isimler2[4]);
 Console.WriteLine(isimler2[0]);
-
-
 

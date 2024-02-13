@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDictionary", "MyDictionar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassMetotDemo", "ClassMetotDemo\ClassMetotDemo.csproj", "{29684585-384D-47EE-9F65-ECBCCBB1C1F9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics", "Generics\Generics.csproj", "{F25A417D-36C0-4E66-8B37-E4C38D6AAAB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP1", "OOP1\OOP1.csproj", "{1F306930-756D-46F6-8B4C-FFE6CFD41EDE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{29684585-384D-47EE-9F65-ECBCCBB1C1F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29684585-384D-47EE-9F65-ECBCCBB1C1F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29684585-384D-47EE-9F65-ECBCCBB1C1F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F25A417D-36C0-4E66-8B37-E4C38D6AAAB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F25A417D-36C0-4E66-8B37-E4C38D6AAAB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F25A417D-36C0-4E66-8B37-E4C38D6AAAB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F25A417D-36C0-4E66-8B37-E4C38D6AAAB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F306930-756D-46F6-8B4C-FFE6CFD41EDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F306930-756D-46F6-8B4C-FFE6CFD41EDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F306930-756D-46F6-8B4C-FFE6CFD41EDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F306930-756D-46F6-8B4C-FFE6CFD41EDE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

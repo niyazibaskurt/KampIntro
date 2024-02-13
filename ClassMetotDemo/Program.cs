@@ -3,7 +3,7 @@ using ClassMetotDemo;
 
 public class Program
 {
-    private static void Main(string[] args)
+    public static void Main(string[] args)
     {
         //Müşteri class'ından nesne oluşturuldu ve farklı kullanımlarla müşteriler oluşturuldu. 
         Musteri musteri1 = new Musteri();
@@ -12,9 +12,11 @@ public class Program
         musteri1.Ad = "Niyazi";
         musteri1.Soyad = "Başkurt";
 
-        Musteri musteri2 = new Musteri() { Id = 2, Ad = "Alperen", Soyad = "Başkurt" };
-        Musteri musteri3 = new Musteri { Id = 3, Ad = "Ali", Soyad = "Başkurt" };
-        Musteri musteri4 = new Musteri { Id = 4, Ad = "Ömer Taha", Soyad = "Başkurt" };
+        Musteri musteri2 = new Musteri() { Id = 2, Ad = "Alperen", Soyad = "Başkurt" };         //Parametresiz constructorı çağırır 
+        Musteri musteri3 = new Musteri { Id = 3, Ad = "Ali", Soyad = "Başkurt" };               //Parametresiz burası da 
+        Musteri musteri4 = new Musteri(4, "Ömer Taha", "Başkurt");                              //Parametreli contructorı çağırır
+
+        //Console.WriteLine(musteri4.Ad + " " + musteri4.Soyad);                      // Parametreli constructor içerisinde yapılan atamadan dolayı burası çalıştı
 
         MusteriManager musteriManager = new MusteriManager();
 
